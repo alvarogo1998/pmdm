@@ -4,31 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".ut01.ex02.presentation.Ut01ex02Activity">
 
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textAlignment="center"
-        android:maxLines="1"
-        android:ellipsize="end"
-        android:textColor="@color/red" />
-
-    <TextView
-        android:id="@+id/label_title"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textAlignment="center"
-        android:minLines="5"
-        android:ellipsize="end"
-        android:textColor="@color/red"
-        android:textStyle="bold"/>
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        app:srcCompat="@drawable/ic_launcher_background"/>
+        android:layout_width="@dimen/size_image"
+        android:layout_height="@dimen/size_image"
+        android:id="@+id/iconElephant"
+        app:srcCompat="@drawable/ic_elephant"
+        android:tint="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/01/2022"
+            android:maxLines="1"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="@dimen/size_title"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Elefante0123456789" />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="@dimen/size_title"
+            android:layout_height="@dimen/size_description"
+            android:maxLines="2"
+            android:minLines="2"
+            android:text="asdasdasdadasdasdasdaddasssssssssssssasdasd"
+            android:ellipsize="end" />
+
+    </LinearLayout>
 
 </LinearLayout>

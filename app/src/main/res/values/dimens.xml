@@ -3,4 +3,5 @@
     <dimen name="size_image">100dp</dimen>
     <dimen name="size_title">100dp</dimen>
     <dimen name="size_description">50dp</dimen>
+    <dimen name="size_emptyStar">20dp</dimen>
 </resources>

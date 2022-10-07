@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">PMDM</string>
     <string name="title">Hola Mundo</string>
+    <string name="name_tapa1">Chabasquero de Santa Teresa</string>
+    <string name="bar_tapa1">Bar Restaurante El Comienzo</string>
+    <string name="points">Total: 702 Ptos.</string>
+    <string name="media_star">Media: 4,6</string>
+
 </resources>

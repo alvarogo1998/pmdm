@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="size_image">100dp</dimen>
     <dimen name="size_title">100dp</dimen>
     <dimen name="size_description">50dp</dimen>
     <dimen name="size_emptyStar">20dp</dimen>
+    <dimen name="size_image">250dp</dimen>
+    <dimen name="size_margin">10dp</dimen>
+    <dimen name="size_text">160sp</dimen>
+    <dimen name="size_padding">30dp</dimen>
+    <dimen name="size_nameTapa1">20dp</dimen>
+    <dimen name="size_text_small">22sp</dimen>
+    <dimen name="size_margin_small">5dp</dimen>
+    <dimen name="size_star">12</dimen>
 </resources>

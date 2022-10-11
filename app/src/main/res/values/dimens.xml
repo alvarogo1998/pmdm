@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="size_image">250dp</dimen>
     <dimen name="size_title">100dp</dimen>
+    <dimen name="size_subtitle">20dp</dimen>
     <dimen name="size_description">50dp</dimen>
     <dimen name="size_emptyStar">20dp</dimen>
-    <dimen name="size_image">250dp</dimen>
+    <dimen name="both_spading">13dp</dimen>
+    <dimen name="vertical_spading">13dp</dimen>
     <dimen name="size_margin">10dp</dimen>
     <dimen name="size_text">160sp</dimen>
     <dimen name="size_padding">30dp</dimen>

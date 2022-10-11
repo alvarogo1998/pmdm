@@ -6,4 +6,9 @@
     <string name="points">Total: 702 Ptos.</string>
     <string name="media_star">Media: 4,6</string>
     <string name="store">Chema Fruteria</string>
+
+    <!--Form-->
+    <string name="form_label_name">Nombre:</string>
+    <string name="form_label_surname">Apellidos:</string>
+    <string name="form_label_save">Guardar</string>
 </resources>

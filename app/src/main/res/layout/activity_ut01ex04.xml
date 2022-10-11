@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="horizontal"
     tools:context=".ut01.ex02.presentation.Ut01Ex03Activity">
 
@@ -41,7 +41,7 @@
 
     <TextView
         android:id="@+id/nameTapa1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/name_tapa1"
         android:layout_below="@+id/background"
@@ -53,7 +53,7 @@
 
     <TextView
         android:id="@+id/barTapa1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bar_tapa1"
         android:layout_below="@+id/nameTapa1"
